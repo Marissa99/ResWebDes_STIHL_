@@ -1,0 +1,191 @@
+/*wie kann man auf Bold Regular und so zeugreifen?*/
+/*Allgemein*/
+body{
+    
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    width: 1350px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.Ueberschrift{
+    margin-left: 50px;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    font-weight: 800;  
+}
+
+/*Header*/
+#header{
+    width: 1350px;
+    
+}
+
+nav{
+    position: absolute;
+    right: 0;
+}
+
+/*Produktvorstellung*/  
+.Rahmen{
+    margin-left: 50px;
+}
+#Logo{
+    width: 338px;
+    margin-left: 0px;
+}
+
+.Trennstrich{
+    width: 400px;
+}
+#Warenkorb1 {
+    padding: 20px;
+    width: 400px;
+    color: white;
+    background-color: rgb(243, 122, 31);
+    font-size: 20px;
+    border: none;
+}
+.Slider{
+    width: 675px;
+    height: 675px;
+    margin-top: 50px;
+}
+table{
+    max-width: 1350px;
+}
+#Produktslider{
+    display: flex;
+    flex-direction: row;
+}
+.Text{
+    padding-top: 50px;
+    padding-left: 75px;
+}
+
+/*Technische Details*/  
+#TechnischeDetails{
+    margin-left: 50px;
+}
+#TechnischeDetails td{
+    width: 620px;
+}
+#TechnischeDetails table{
+    border: none;
+}
+#TechnischeDetails td p {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Grau{
+    background-color: rgb(237, 237, 237);
+}
+
+/*Eigenschaften*/  
+
+.Eigenschaften{
+    width: 1250px;
+    height: 550px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+/*.SliderEigenschaftenText{
+    padding-left: 15px;
+    padding-right: 15px;
+}*/
+
+#EigenschaftenDiv{
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+
+
+
+/*Banner*/  
+#Banner{
+    padding-top: 100px;
+}
+#Banner td{
+    text-align: center;
+    color: white;
+    font-size: larger;
+    width: 1350px;
+    background-color: rgb(243, 122, 31);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#Warenkorb2 {
+    padding: 20px;
+    width: 400px;
+    color:rgb(243, 122, 31) ;
+    background-color: white;
+    font-size: 20px;
+    border: none;
+}
+
+/*Warum Stihl*/  
+.WarumStihl{
+    width: 1300px;
+    padding-left: 50px;
+}
+.WarumStihl td{
+    width: 337px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.Icon{
+    width: 150px;
+    align-items: center;
+    padding-bottom: 120px; 
+    
+}
+.Icon:hover{
+    transform: scale(1.5);
+}
+
+.Fett{
+    font-size: 25px;
+   
+}
+
+/*Schlussbild*/  
+#Schluss{
+    width: 1350px;
+}
+
+/*Footer*/  
+.Footer{
+    width: 1350px;
+    height: 100px;
+}
+.Footer td{
+    width: 338px;
+    text-align: center;
+   
+}
+
+
+/*RESPONSIVE DESIGN*/
+
+/*Smartphones*/
+@media only screen and (min-width: 480px) {
+   
+}
+
+/*Tablets*/  
+@media only screen and (min-width: 768px) {
+    
+}
+
+/*Desktop*/   
+@media only screen and (min-width: 1280px) {
+    
+}
