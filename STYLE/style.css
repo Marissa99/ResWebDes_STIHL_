@@ -5,7 +5,7 @@ body{
     /*font-family: 'Roboto', sans-serif;*/
     font-family: 'Montserrat', sans-serif;
     position: relative;
-    width: 1350px;
+    width: 100%;
     margin: auto;
     font-size: 20px;
 }
@@ -19,7 +19,7 @@ body{
 
 /*Header*/
 #header{
-    width: 1350px;
+    width: 100%;
     
 }
 
@@ -42,19 +42,19 @@ nav{
 }
 #Warenkorb1 {
     padding: 20px;
-    width: 400px;
+    width: 70%;
     color: white;
     background-color: rgb(243, 122, 31);
     font-size: 20px;
     border: none;
 }
 .Slider{
-    width: 675px;
-    height: 675px;
+    width: 50%;
+    height: 50%;
     margin-top: 50px;
 }
 table{
-    max-width: 1350px;
+    max-width: 100%;
 }
 #Produktslider{
     display: flex;
@@ -68,9 +68,10 @@ table{
 /*Technische Details*/  
 #TechnischeDetails{
     margin-left: 50px;
+    width: 92%;
 }
 #TechnischeDetails td{
-    width: 620px;
+    width: 50%;
 }
 #TechnischeDetails table{
     border: none;
@@ -88,22 +89,23 @@ table{
 /*Eigenschaften*/  
 
 .Eigenschaften{
-    width: 1250px;
-    height: 550px;
+    width: 90%;
+    height: 100%;
     margin-top: 50px;
     margin-left: 50px;
 }
 
-/*.SliderEigenschaftenText{
+/*
+.SliderEigenschaftenText{
+    width: 200px;
+    word-wrap: break-word;
     padding-left: 15px;
     padding-right: 15px;
 }*/
 
 #EigenschaftenDiv{
     display: flex;
-    flex-direction: row;
-   
-    
+    flex-direction: row; 
 }
 
 
@@ -132,17 +134,17 @@ table{
 
 /*Warum Stihl*/  
 .WarumStihl{
-    width: 1300px;
-    padding-left: 50px;
+    width: 100%;
+    
 }
 .WarumStihl td{
-    width: 337px;
+    width: 30%;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
 }
 .Icon{
-    width: 150px;
+    width: 35%;
     align-items: center;
     padding-bottom: 120px; 
     
@@ -158,16 +160,16 @@ table{
 
 /*Schlussbild*/  
 #Schluss{
-    width: 1350px;
+    width: 100%;
 }
 
 /*Footer*/  
 .Footer{
-    width: 1350px;
+    width: 100%;
     height: 100px;
 }
 .Footer td{
-    width: 338px;
+    width: 20%;
     text-align: center;
    
 }
