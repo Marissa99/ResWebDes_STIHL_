@@ -100,16 +100,19 @@ table{
 }
 
 
-.SliderEigenschaftenText{
-
+/*.SliderEigenschaftenText{
     word-wrap: break-word;
-    padding-left: 15px;
-    padding-right: 15px;
-}
+    margin-left: 15px;
+    margin-right: 15px;
+}*/
 
 #EigenschaftenDiv{
     display: flex;
     flex-direction: row; 
+}
+.Sliderfix{
+    width: 50px;
+    height: 30px;
 }
 
 
