@@ -114,7 +114,8 @@
 <div > 
     <div id="EigenschaftenDiv">
         <div class="Eigenschaften">
-        
+
+        <div class="Slidecontainer">
             <img src="../IMAGES/Feuer.jpg" alt="Feuer">
             <div class="SliderEigenschaftenText">
                 <p><b>FEUER - FARBE, THEMPERATUR & HITZE </b><br></p>
@@ -123,8 +124,9 @@
                 <br>
                 <p>Die orangfarbene Schutzkappe, welche an die Feuerfarbe erinnert, kann zuvor abgenommen und erneut verwertet werden. </p>  
             </div>
+        </div>
         
-        
+        <div class="Slidecontainer">
             <img src="../IMAGES/Erde.jpg" alt="Erde">
             <div class="SliderEigenschaftenText">
                 <p><b>ERDE - NACHHALTIGKEIT, ÖKOLOGISCH & NATURBELASSEN</b><br></p>
@@ -133,8 +135,9 @@
                 <br>
                 <p>Seine orangefarbene Schutzkappe kann wieder verwertet und ausgetauscht werden.</p>  
             </div>
+        </div>
         
-        
+        <div class="Slidecontainer">
             <img src="../IMAGES/Wasser.JPG" alt="Wasser">
             <div class="SliderEigenschaftenText">
                 <p><b>WASSER - DICHTE, SCHWIMMEN & PERLUNG</b><br></p>
@@ -143,7 +146,9 @@
                 <br>
                 <p>Das Wasser perlt an dem Holzwürfel ab und macht ihn dadurch Wasserabweisend.</p>  
             </div>
-       
+        </div>
+        
+        <div class="Slidecontainer">
             <img src="../IMAGES/Luft.jpg" alt="Luft">
             <div class="SliderEigenschaftenText">
                 <p><b> LUFT - LOCKER, LUFTIG & KLIMANEUTRAL</b><br></p>
@@ -152,6 +157,7 @@
                 <br>
                 <p>Sein leichtes Gewicht, lässt Ihn in der Handhabung und beim Transport problemlos verwerten.</p>  
             </div>
+        </div>
     
         </div>
        
@@ -165,35 +171,8 @@
             $('.Eigenschaften').slick({
          dots: true,
          invinite: false,
-         touchMove: false,
-         slidesToShow: 4,
-         slidesToScroll: 2,
-
-         responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-  ]
+         slidesToShow: 2,
+         slidesToScroll: 1,
 
          });     
     });
