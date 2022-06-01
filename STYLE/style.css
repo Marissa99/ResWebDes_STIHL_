@@ -31,6 +31,14 @@ nav{
     width: 200px;
     margin-left: 0px;
 }
+#Headline{
+    position: absolute;
+    color: white;
+    margin-top: 15%;
+    margin-left: 12%;
+    font-size: 150%;
+   
+}
 
 /*Produktvorstellung*/  
 .Rahmen{
@@ -64,7 +72,7 @@ table{
     flex-direction: row;
 }
 .Text{
-    padding-top: 50px;
+    padding-top: 15px;
     padding-left: 75px;
 }
 
