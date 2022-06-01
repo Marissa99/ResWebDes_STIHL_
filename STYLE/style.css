@@ -7,7 +7,7 @@ body{
     position: relative;
     width: 100%;
     margin: auto;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .Ueberschrift{
@@ -27,15 +27,17 @@ nav{
     position: absolute;
     right: 0;
 }
+#Logo{
+    
+    width: 200px;
+    margin-left: 0px;
+}
 
 /*Produktvorstellung*/  
 .Rahmen{
     margin-left: 50px;
 }
-#Logo{
-    width: 338px;
-    margin-left: 0px;
-}
+
 
 .Trennstrich{
     width: 400px;
@@ -50,9 +52,11 @@ nav{
 }
 .Slider{
     width: 50%;
-    height: 50%;
+    height: 20%;
     margin-top: 50px;
+    margin-bottom: 20px;
 }
+
 table{
     max-width: 100%;
 }
@@ -95,13 +99,13 @@ table{
     margin-left: 50px;
 }
 
-/*
+
 .SliderEigenschaftenText{
-    width: 200px;
+
     word-wrap: break-word;
     padding-left: 15px;
     padding-right: 15px;
-}*/
+}
 
 #EigenschaftenDiv{
     display: flex;
