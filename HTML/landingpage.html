@@ -23,7 +23,7 @@
         </div>
     </nav>
     
-    <div>
+    <div class="HeaderDiv">
         <img id="header" src="../IMAGES/Header_Neu.jpg" alt="Würfel Headerbild"></img>
     </div>
 
@@ -114,7 +114,7 @@
 <div > 
     <div id="EigenschaftenDiv">
         <div class="Eigenschaften">
-        <div calss="Sliderfix">
+        
             <img src="../IMAGES/Feuer.jpg" alt="Feuer">
             <div class="SliderEigenschaftenText">
                 <p><b>FEUER - FARBE, THEMPERATUR & HITZE </b><br></p>
@@ -123,8 +123,8 @@
                 <br>
                 <p>Die orangfarbene Schutzkappe, welche an die Feuerfarbe erinnert, kann zuvor abgenommen und erneut verwertet werden. </p>  
             </div>
-        </div>
-        <div calss="Sliderfix">
+        
+        
             <img src="../IMAGES/Erde.jpg" alt="Erde">
             <div class="SliderEigenschaftenText">
                 <p><b>ERDE - NACHHALTIGKEIT, ÖKOLOGISCH & NATURBELASSEN</b><br></p>
@@ -133,8 +133,8 @@
                 <br>
                 <p>Seine orangefarbene Schutzkappe kann wieder verwertet und ausgetauscht werden.</p>  
             </div>
-        </div>
-        <div calss="Sliderfix">
+        
+        
             <img src="../IMAGES/Wasser.JPG" alt="Wasser">
             <div class="SliderEigenschaftenText">
                 <p><b>WASSER - DICHTE, SCHWIMMEN & PERLUNG</b><br></p>
@@ -143,8 +143,7 @@
                 <br>
                 <p>Das Wasser perlt an dem Holzwürfel ab und macht ihn dadurch Wasserabweisend.</p>  
             </div>
-        </div>
-        <div calss="Sliderfix">
+       
             <img src="../IMAGES/Luft.jpg" alt="Luft">
             <div class="SliderEigenschaftenText">
                 <p><b> LUFT - LOCKER, LUFTIG & KLIMANEUTRAL</b><br></p>
@@ -153,8 +152,7 @@
                 <br>
                 <p>Sein leichtes Gewicht, lässt Ihn in der Handhabung und beim Transport problemlos verwerten.</p>  
             </div>
-        </div>
-
+    
         </div>
        
     
@@ -166,9 +164,37 @@
         $(document).ready(function(){
             $('.Eigenschaften').slick({
          dots: true,
-         slidesToShow: 2,
-         slidesToScroll: 4,
-        
+         invinite: false,
+         touchMove: false,
+         slidesToShow: 4,
+         slidesToScroll: 2,
+
+         responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+  ]
+
          });     
     });
     </script>
@@ -176,41 +202,40 @@
 </div>
 
 <!--Banner-->
-<table id="Banner">
-    <tr>
-        <td><p>SIND SIE INTERESSIERT? DANN BESTELLEN SIE GLEICH</p>
-            <Button id="Warenkorb2"><p> <b>IN DEN WARENKORB</b></p></Button>
-        </td>
-    </tr>
-</table>
+<div class="Banner">
+
+    <p>SIND SIE INTERESSIERT? DANN BESTELLEN SIE GLEICH</p>
+    <Button id="Warenkorb2"><p> <b>IN DEN WARENKORB</b></p></Button>
+      
+</div>
 
 <!--Warum Stihl-->
 <br>
 <h1 class="Ueberschrift" class="WarumStihl"> <b>WARUM STIHL</b></h1>
 
-<table class="WarumStihl">
-    <tr>
-        <td>
+<div class="WarumStihl">
+   
+        <div class="WarumStihlItem">
             <img class="Icon" src="../IMAGES/Nachhaltig.png" alt="Nachhaltig">
             <br>
             <p class="Fett"><b>NACHHALTIGKEIT</b></p>
             <p>Stihl steht für Natur und Umwelt</p>
             <br>
-        </td>
-        <td>
+        </div>
+        <div class="WarumStihlItem">
             <img class="Icon"  src="../IMAGES/Qualität.png" alt="Qualität">
             <br>
             <p class="Fett"><b>HOHE QUALITÄT</b></p>
             <p>Qualität und Leistungsfähigkeit stehen an der obsersten Stelle</p>
-        </td>
-        <td>
+        </div>
+        <div class="WarumStihlItem">
             <img class="Icon" src="../IMAGES/Ökologisch.png" alt="Nachhaltig">
            <br>
             <p class="Fett"><b>ÖKOLOGISCH</b></p>
             <p>Produkte aus ökologisch abbaubaren Materiealien hergestellt</p>
-        </td>
-    </tr>
-</table>
+        </div>
+    
+</div>
 
 <!--Schlussbild-->
 <div>
