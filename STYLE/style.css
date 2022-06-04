@@ -13,7 +13,7 @@ body{
 .Ueberschrift{
     margin-left: 50px;
     margin-top: 100px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     font-weight: 800;  
 }
 
@@ -37,7 +37,6 @@ nav{
     margin-top: 15%;
     margin-left: 12%;
     font-size: 150%;
-   
 }
 
 /*Produktvorstellung*/  
@@ -102,7 +101,7 @@ table{
 .Eigenschaften{
     width: 90%;
     height: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 50px;
     padding-bottom: 50px;
 }
@@ -200,22 +199,38 @@ table{
 /*Smartphones*/
 @media only screen and (max-width: 760px) {
 
+    /*Allgemein*/
+    .Ueberschrift{
+        margin-left: 7%;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        font-weight: 800; 
+         
+    }
     /*Header*/
+    #Headline{
+        position: absolute;
+        color: white;
+        padding-top: 20%;
+        margin-top: 70%;
+        margin-left: 12%;
+        font-size: 100%;
+    }
     #header img{
         object-fit: cover;
     }
     .HeaderDiv img{
         object-fit: cover;
         width: 100%;
-        height: 100vh; /*75 für Desktop kopieren*/
-        
+        height: 100vh; /*75 für Desktop kopieren*/ 
     }
-   /*Logo*/
     #Logo{
     
         width: 150px;
         margin-left: 0px;
     }
+
+
     /*Produktvorstellung*/
     .Rahmen{
         margin-left: 0px;
@@ -224,13 +239,13 @@ table{
         width: 100%;
         height: 70%;
         margin-top: 50px;
-        margin-bottom: 20px;
+        margin-bottom: 0px;
     }
-
     .Text{
         width: 100%;
-        padding-top: 20px;
-        padding-left: 0px;
+        padding-top: 0px;
+        padding-left: 3%;
+        font-size: small;
     }
     #Produktslider{
         display: flex;
@@ -238,21 +253,52 @@ table{
         flex-direction: column;
     }
     .Trennstrich{
-        max-width: 100%;
+        max-width: 90%;
     }
-
-
-/*Warum*/
-    .WarumStihlItem{
+    #Warenkorb1 {
+        padding: 20px;
+        max-width: 80%;
+        color: white;
+        background-color: rgb(243, 122, 31);
+        font-size: 20px;
+        border: none;
+    }
+    #WL99 {
+        margin-left: 0%;
+        margin-top: 100px;
+        margin-bottom: 5px;
+        font-weight: 800; 
+         
+         
+    }
+    /*Technische Details*/  
+    #TechnischeDetails{
+        margin-left: 0px;
+        font-size: smaller;
         width: 100%;
-    }
-    .WarumStihl{
+      
+        }
+
+    /*Eigenschaften*/  
+
+    .Slidecontainer{
+        display: flex !important;
         flex-direction: column;
-        display: flex;
+        width: 50%;
+        
+    }
+    .Slidecontainer img{
         width: 100%;
     }
+    .SliderEigenschaftenText{
+        word-wrap: break-word;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+    }
+    
 
-/*Eigenschaften*/
+    /*Eigenschaften*/
     .Eigenschaften{
         width: 100%;
         height: 50%;
@@ -265,15 +311,63 @@ table{
         padding-top: 10px;
         padding-bottom: 10px;
     }
-/*Technische Details*/  
-    #TechnischeDetails{
-    margin-left: 0px;
-    font-size: smaller;
-    width: 100%;
-  
+
+     /*Warum*/
+     .WarumStihlItem{
+        width: 100%;
+    }
+    .WarumStihl{
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+    }
+
+    /*Footer*/
+    .Footer{
+        width: 90%;
+        height: 100px;
+    }
+    .Footer td{
+        font-size: small;
+        width: 20%;
+        text-align: center;
+       
     }
 }
 
+/*Tablet Hochformat*/
+@media only screen and (max-width: 1120px) {
+    
+    #Headline{
+        position: absolute;
+        color: white;
+        margin-top: 15%;
+        margin-left: 7%;
+        font-size: 100%;
+    }
+
+    
+    .Text{
+        padding-top: 15px;
+        padding-left: 40px;
+        font-size: small;
+    }
+    .Trennstrich{
+        max-width: 90%;
+    }
+    .Fett{
+        font-size: 15px;
+
+    }
+    #Warenkorb1 {
+        padding: 20px;
+        width: 90%;
+        color: white;
+        background-color: rgb(243, 122, 31);
+        font-size: 15px;
+        border: none;
+    }
+}
 
 /*Desktop*/   
 @media only screen and (min-width: 1280px) {
