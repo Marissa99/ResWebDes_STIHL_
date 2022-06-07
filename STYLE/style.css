@@ -199,6 +199,9 @@ table{
 /*Smartphones*/
 @media only screen and (max-width: 760px) {
 
+    body{
+        font-size: medium;
+    }
     /*Allgemein*/
     .Ueberschrift{
         margin-left: 7%;
@@ -208,6 +211,7 @@ table{
          
     }
     /*Header*/
+   
     #Headline{
         position: absolute;
         color: white;
@@ -244,8 +248,8 @@ table{
     .Text{
         width: 100%;
         padding-top: 0px;
-        padding-left: 3%;
-        font-size: small;
+        padding-left: 0px;
+
     }
     #Produktslider{
         display: flex;
@@ -260,12 +264,11 @@ table{
         max-width: 80%;
         color: white;
         background-color: rgb(243, 122, 31);
-        font-size: 20px;
         border: none;
     }
     #WL99 {
-        margin-left: 0%;
-        margin-top: 100px;
+        margin-left: 0px;
+        margin-top: 20px;
         margin-bottom: 5px;
         font-weight: 800; 
          
@@ -274,16 +277,15 @@ table{
     /*Technische Details*/  
     #TechnischeDetails{
         margin-left: 0px;
-        font-size: smaller;
+        padding-left: 3px;
         width: 100%;
       
         }
 
     /*Eigenschaften*/  
-
     .Slidecontainer{
         display: flex !important;
-        flex-direction: column;
+        flex-direction: row;
         width: 50%;
         
     }
@@ -292,13 +294,12 @@ table{
     }
     .SliderEigenschaftenText{
         word-wrap: break-word;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
         width: 100%;
+
     }
     
-
-    /*Eigenschaften*/
     .Eigenschaften{
         width: 100%;
         height: 50%;
@@ -311,17 +312,40 @@ table{
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    /* Banner*/
+    #Warenkorb2 {
+        padding: 20px;
+        width: 90%;
+        color:rgb(243, 122, 31) ;
+        background-color: white;
+        font-size: 20px;
+        border: none;
+    }
 
      /*Warum*/
      .WarumStihlItem{
+        padding-top: 10px;
         width: 100%;
+        word-wrap: break-word;
+        
     }
+    .WarumStihlItem p{
+        width: 95%;
+    }
+
     .WarumStihl{
         flex-direction: column;
         display: flex;
         width: 100%;
     }
-
+    .Icon{
+        width: 20%;
+        align-items: center;
+        padding-bottom: 20px; 
+        
+    }
+  
+   
     /*Footer*/
     .Footer{
         width: 90%;
@@ -338,6 +362,7 @@ table{
 /*Tablet Hochformat*/
 @media only screen and (max-width: 1120px) {
     
+    /*Header*/
     #Headline{
         position: absolute;
         color: white;
@@ -346,7 +371,7 @@ table{
         font-size: 100%;
     }
 
-    
+    /*Produktvorstellung*/
     .Text{
         padding-top: 15px;
         padding-left: 40px;
@@ -369,7 +394,64 @@ table{
     }
 }
 
+
+
+
+
+
 /*Desktop*/   
 @media only screen and (min-width: 1280px) {
+
+    body{
+        font-size: 150%;
+    }
+
+/*Header*/
+    #Logo{
+    
+        width: 250px;
+        margin-left: 0px;
+    }
+    
+/*Produktvorstellung*/
+
+    .Text{
+        padding-top: 0px;
+        padding-left: 100px;
+        
+    }
+    .Trennstrich{
+        min-width: 90%;
+    }
+
+    #Warenkorb1 {
+        padding: 20px;
+        width: 90%;
+        color: white;
+        background-color: rgb(243, 122, 31);
+        font-size: larger;
+        border: none;
+    }
+/*Banner*/ 
+
+.Banner{
+        
+    text-align: center;
+    color: white;
+    font-size: larger;
+    width:100%;
+    background-color: rgb(243, 122, 31);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#Warenkorb2 {
+    padding: 20px;
+    width: 40%;
+    color:rgb(243, 122, 31) ;
+    background-color: white;
+    font-size: larger;
+    border: none;
+}
+    
     
 }
