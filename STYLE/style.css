@@ -190,6 +190,12 @@ table{
     text-align: center;
    
 }
+#Erklärung{
+    font-size: smaller;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
 
 
 /*RESPONSIVE DESIGN*/
@@ -359,9 +365,15 @@ table{
     .Footer td{
         font-size: small;
         width: 20%;
-        text-align: center;
-       
+        text-align: center;  
     }
+    #Erklärung{
+        font-size: xx-small;
+        margin-left: 50px;
+        margin-right: 50px;
+        text-align: center;
+    }
+   
 }
 
 /*Tablet Hochformat*/
@@ -373,10 +385,12 @@ table{
         color: white;
         margin-top: 15%;
         margin-left: 7%;
-        font-size: 100%;
+        font-size: 120%;
+        
     }
 
     /*Produktvorstellung*/
+   
     .Text{
         padding-top: 15px;
         padding-left: 40px;
@@ -398,9 +412,6 @@ table{
         border: none;
     }
 }
-
-/*Tablet Querformat*/
-
 
 
 
@@ -457,6 +468,5 @@ table{
     font-size: larger;
     border: none;
 }
-    
     
 }
