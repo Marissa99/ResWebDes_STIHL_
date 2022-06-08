@@ -249,6 +249,7 @@ table{
         width: 100%;
         padding-top: 0px;
         padding-left: 0px;
+        margin-left: 0px;
 
     }
     #Produktslider{
@@ -287,13 +288,18 @@ table{
         display: flex !important;
         flex-direction: row;
         width: 50%;
+        max-height: 370px;
+        
         
     }
     .Slidecontainer img{
         width: 100%;
+      
+        
     }
     .SliderEigenschaftenText{
         word-wrap: break-word;
+        font-size: small;
         padding-left: 10px;
         padding-right: 10px;
         width: 100%;
