@@ -203,9 +203,12 @@ table{
 /*Smartphones*/
 @media only screen and (max-width: 760px) {
 
-    body{
+    body, html{
         font-size: medium;
         width: 100%;
+        margin: 0; 
+        padding: 0;
+       
     }
     /*Allgemein*/
     .Ueberschrift{
@@ -229,7 +232,7 @@ table{
     }
     .HeaderDiv img{
         object-fit: cover;
-        width: 100%;
+        width: 90%;
         height: 100vh; /*75 für Desktop kopieren*/ 
     }
     #Logo{
@@ -356,7 +359,6 @@ table{
         
     }
   
-   
     /*Footer*/
     .Footer{
         width: 98%;
