@@ -253,7 +253,7 @@ table{
         width: 100%;
         padding-top: 0px;
         padding-left: 0px;
-        margin-left: 0px;
+        margin-left: -12px;
 
     }
     #Produktslider{
@@ -359,7 +359,7 @@ table{
    
     /*Footer*/
     .Footer{
-        width: 90%;
+        width: 98%;
         height: 100px;
     }
     .Footer td{
