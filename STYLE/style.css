@@ -233,12 +233,13 @@ table{
     .HeaderDiv img{
         object-fit: cover;
         width: 90%;
-        height: 100vh; /*75 für Desktop kopieren*/ 
+        height: 100vh; /*75 für Desktop kopieren */
     }
     #Logo{
     
         width: 150px;
         margin-left: 0px;
+        padding-left: 0;
     }
 
 
@@ -253,7 +254,7 @@ table{
         margin-bottom: 0px;
     }
     .Text{
-        width: 100%;
+        width: 90%; /*nicht 100% sonst geht es über die Größe*/
         padding-top: 0px;
         padding-left: 0px;
         margin-left: -12px;
@@ -296,6 +297,7 @@ table{
         flex-direction: row;
         width: 50%;
         height: 370px;
+        
         
         
     }

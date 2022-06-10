@@ -76,6 +76,7 @@
         $(document).ready(function(){
         $('.Slider').slick({
             dots: true,
+            arrows: false,
         });
         });
     </script>
@@ -175,14 +176,16 @@
         $(document).ready(function(){
             $('.Eigenschaften').slick({
          dots: true,
+         arrows: false,
          slidesToShow: 2,
          slidesToScroll: 2,
          responsive: [
              {
                  breakpoint: 1120,
                  settings: {
-                     slidesToShow: 1,
-                     slidesToScroll: 1,
+                    arrows: false,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
 
                  } 
              }
