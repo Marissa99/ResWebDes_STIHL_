@@ -74,6 +74,9 @@ table{
     padding-top: 15px;
     padding-left: 75px;
 }
+Button:hover{
+    transform: scale(1.2);
+}
 
 /*Technische Details*/  
 #TechnischeDetails{
@@ -279,10 +282,11 @@ table{
         margin-left: 0px;
         margin-top: 20px;
         margin-bottom: 5px;
-        font-weight: 800; 
-         
+        font-weight: 800;  
          
     }
+  
+
     /*Technische Details*/  
     #TechnischeDetails{
         margin-left: 0px;
@@ -415,6 +419,9 @@ table{
         font-size: 15px;
         border: none;
     }
+    Button:hover{
+        transform: scale(1.2);
+    }
 }
 
 
@@ -451,6 +458,9 @@ table{
         background-color: rgb(243, 122, 31);
         font-size: larger;
         border: none;
+    }
+    Button:hover{
+        transform: scale(1.2);
     }
 /*Banner*/ 
 
